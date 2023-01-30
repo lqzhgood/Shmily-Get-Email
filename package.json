@@ -1,0 +1,38 @@
+{
+    "name": "ToMsg",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon --inspect index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@vlasky/quoted-printable": "^3.2.1",
+        "axios": "^0.21.1",
+        "cheerio": "^1.0.0-rc.5",
+        "dayjs": "^1.10.4",
+        "eml-format": "^0.6.1",
+        "eml-parser": "^1.0.4",
+        "file-type": "^16.2.0",
+        "fs-extra": "^1.0.0",
+        "iconv-lite": "^0.6.2",
+        "jschardet": "^2.2.1",
+        "lodash": "^4.17.20",
+        "md5-file": "^5.0.0",
+        "pretty-bytes": "^5.5.0"
+    },
+    "nodemonConfig": {
+        "ignore": [
+            "input/*",
+            "dist/*",
+            "lib/face/*"
+        ]
+    },
+    "engines": {
+        "node": ">=12.22.9"
+    }
+}
