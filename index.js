@@ -43,7 +43,7 @@ fs.mkdirpSync('./dist');
 
     const res = _(msgArr)
         .sortBy('ms')
-        .unionBy(v => `${v.ms}${v.html}${JSON.stringify(v.$Email.attachments)}`)
+        .unionBy(v => `${v.ms}${v.html}${JSON.stringify(v.$Email.data.attachments)}`)
         .value();
 
     console.log('res', res);

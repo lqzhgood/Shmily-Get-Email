@@ -102,7 +102,7 @@ module.exports = {
         {
             md5: '8db4a11d4298a48b522aa62dbe28f29d',
             fn: msg => {
-                msg.$Email.attachments.push({
+                msg.$Email.data.attachments.push({
                     name: 'Cursors.rar',
                     originName: 'Cursors.rar',
                     url: `unknown`,

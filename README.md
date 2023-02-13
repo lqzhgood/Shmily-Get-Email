@@ -34,3 +34,11 @@
 
 邮件体标准也是无力吐槽... 头部竟然可以不要 `Date` 收件人啥的也可以不要。。。 <br />
 一定记得自行核对结果
+
+## 感谢
+
+http://lqzhgood.github.io/Shmily/guide/other/thanks.html
+
+## 捐赠
+
+点击链接 http://lqzhgood.github.io/Shmily/guide/other/donation.html 看世界上最可爱的动物
