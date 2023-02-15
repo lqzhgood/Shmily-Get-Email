@@ -2,7 +2,6 @@
 .docs
 logs
 *.log
-test/unpack
 npm-debug.log*
 package-lock.json
 
